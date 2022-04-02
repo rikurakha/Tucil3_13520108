@@ -1,10 +1,13 @@
 ### Dasar-dasar papan puzzle
+import random
 
 ## Papan puzzle
-board = [1,2,3,4,5,6,16,8,9,10,7,11,13,14,15,12]
+board = [2,3,7,4,1,5,10,8,6,15,11,12,9,13,14,16]
 target = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
 
 ## Papan methods
+def randomize():
+    random.shuffle(board)
 
 def posisi(x):
     return board.index(x)
