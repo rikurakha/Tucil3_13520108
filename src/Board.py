@@ -75,7 +75,7 @@ def displayScore():
         
 def inputPuzzle(textName):
     global board
-    with open(textName,"r") as file:
+    with open("test/"+textName,"r") as file:
         temp = []
         lines = file.readlines()
         for i in lines:
