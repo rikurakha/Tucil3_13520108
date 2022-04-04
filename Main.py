@@ -3,6 +3,10 @@ import Search
 import time
 
 ### Algoritma utama
+fileName = str(input("Input starting puzzle file name: "))
+Board.inputPuzzle(fileName)
+Search.updateSearch()
+
 pick = input("Randomize puzzle board? *not recommended* [Y/N]: ")
 if pick in ["Y","y"]:
     Board.randomize()
@@ -10,7 +14,10 @@ if pick in ["Y","y"]:
 else:
     pass
 
+Board.displayScore()
+
 if Board.isReachable()[0]:
+
     ## Searching
     start = time.time()
     Search.expand(Search.activeNodes[0])
@@ -43,5 +50,3 @@ if Board.isReachable()[0]:
                         else:
                             print(i[j], end=" ")
             print()
-else:
-    print("Current board is not solvable")

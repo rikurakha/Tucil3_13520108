@@ -112,3 +112,12 @@ def getSolution():
     for i in activeNodes:
         if i[-1] == "SOLVED":
             solution = i
+
+def updateSearch():
+    global root
+    global activeNodes
+    global allStates
+    
+    root = Board.board
+    activeNodes = [[root]]
+    allStates = [root]
