@@ -30,7 +30,7 @@ Untuk menjalankan program ini, bisa menggunakan IDE manapun yang men-support bah
 
 Berikut adalah langkah yang dapat diikuti untuk menjalankan program ini
 
-1. Clone repository ini dengan 
+1. Clone repository ini dengan `https://github.com/rikurakha/Tucil3_13520108.git`
 2. Untuk menjalankan program, jalankan `Main.py` yang terdapat dalam folder `src` menggunakan IDE pilihan Anda
 3. Untuk mengganti susunan awal puzzle yang digunakan, silakan masukkan .txt file yang berisi susunan yang diinginkan ke folder `test`
 
