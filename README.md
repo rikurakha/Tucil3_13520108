@@ -32,7 +32,7 @@ Berikut adalah langkah yang dapat diikuti untuk menjalankan program ini
 
 1. Clone repository ini dengan 
 2. Untuk menjalankan program, jalankan `Main.py` yang terdapat dalam folder `src` menggunakan IDE pilihan Anda
-3. Untuk mengganti susunan awal puzzle yang digunakan, silakan masukkan .txt file yang berisi susunan yang diinginkan
+3. Untuk mengganti susunan awal puzzle yang digunakan, silakan masukkan .txt file yang berisi susunan yang diinginkan ke folder `test`
 
 Notes:
 Program ini dapat berjalan dengan baik pada 15-puzzle yang memerlukan < 17 langkah untuk diselesaikan. Lebih dari itu program akan memerlukan waktu eksekusi yang cukup lama
